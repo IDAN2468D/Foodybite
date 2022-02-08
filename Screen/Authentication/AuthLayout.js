@@ -21,10 +21,10 @@ function AuthLayout({ label, children }) {
                 </View>
                 <LinearGradient start={{ x: 5, y: 1 }} end={{ x: 5, y: 0 }} colors={['#000000', 'transparent']} style={styles.linearGradient} />
                 <View style={{
-                    position: 'absolute', top: 0, left: 0, right: 0, bottom: 710, justifyContent: 'center', alignItems: 'center'
+                    position: 'absolute', top: 0, left: 0, right: 0, bottom: 650, justifyContent: 'center', alignItems: 'center'
                 }}
                 >
-                    <Text style={{ textAlign: "center", ...FONTS.largeTitle, color: COLORS.white, fontWeight: "bold" }}>
+                    <Text style={{ textAlign: "center", fontSize: 40, color: COLORS.white, fontWeight: "bold" }}>
                         {label}
                     </Text>
                 </View>

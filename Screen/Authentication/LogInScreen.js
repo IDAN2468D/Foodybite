@@ -27,7 +27,7 @@ function LogInScreen() {
 
     return (
         <AuthLayout label="Foodybite">
-            <View style={{ position: 'absolute', top: 500, left: 0, right: 0 }}>
+            <View style={{ position: 'absolute', top: 200, left: 0, right: 0 }}>
                 <FormInput
                     placeholder="Email"
                     autoCompleteType='email'

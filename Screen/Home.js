@@ -68,7 +68,7 @@ function CategoryComponent() {
                     <Text
                         style={{
                             color: COLORS.lightGray2,
-                            ...FONTS.body2,
+                            ...FONTS.body4,
                         }}>
                         See all (9)
                     </Text>
@@ -76,7 +76,7 @@ function CategoryComponent() {
                 <Text
                     style={{
                         color: COLORS.black,
-                        ...FONTS.h1,
+                        ...FONTS.h2,
                         fontWeight: "bold",
                     }}>
                     Category
@@ -85,19 +85,19 @@ function CategoryComponent() {
             <View style={styles.container}>
                 <View style={{ flexDirection: 'row', justifyContent: "space-between" }}>
                     <TouchableOpacity onPress={() => navigation.navigate("Italian")}>
-                        <Text style={{ position: "absolute", ...FONTS.h2, top: 50, right: 18, bottom: 0, zIndex: 2, color: COLORS.white }}>Maxican</Text>
+                        <Text style={{ position: "absolute", ...FONTS.h3, top: 50, right: 18, bottom: 0, zIndex: 2, color: COLORS.white }}>Maxican</Text>
                         <LinearGradient start={{ x: 5, y: 1 }} end={{ x: 5, y: 0 }} colors={['#3B40FE', '#2DCEF8']} style={styles.linearGradient} />
-                        <Image resizeMode="cover" source={images.Image_1} style={{ width: 130, height: 130, borderRadius: 10 }} />
+                        <Image resizeMode="cover" source={images.Image_1} style={{ width: 120, height: 120, borderRadius: 10 }} />
                     </TouchableOpacity>
                     <TouchableOpacity>
-                        <Text style={{ position: "absolute", ...FONTS.h2, top: 50, right: 18, bottom: 0, zIndex: 2, color: COLORS.white }}>Chinese</Text>
+                        <Text style={{ position: "absolute", ...FONTS.h3, top: 50, right: 18, bottom: 0, zIndex: 2, color: COLORS.white }}>Chinese</Text>
                         <LinearGradient start={{ x: 5, y: 1 }} end={{ x: 5, y: 0 }} colors={['#832BF6', '#FF4665']} style={styles.linearGradient} />
-                        <Image resizeMode="cover" source={images.Image_2} style={{ width: 130, height: 130, borderRadius: 10 }} />
+                        <Image resizeMode="cover" source={images.Image_2} style={{ width: 120, height: 120, borderRadius: 10 }} />
                     </TouchableOpacity>
                     <TouchableOpacity>
-                        <Text style={{ position: "absolute", ...FONTS.h2, top: 50, right: 18, bottom: 0, zIndex: 2, color: COLORS.white }}>Italian</Text>
+                        <Text style={{ position: "absolute", ...FONTS.h3, top: 50, right: 18, bottom: 0, zIndex: 2, color: COLORS.white }}>Italian</Text>
                         <LinearGradient start={{ x: 5, y: 1 }} end={{ x: 5, y: 0 }} colors={['#FF5673', '#FF8C48']} style={styles.linearGradient} />
-                        <Image resizeMode="cover" source={images.Image_3} style={{ width: 130, height: 130, borderRadius: 10 }} />
+                        <Image resizeMode="cover" source={images.Image_3} style={{ width: 120, height: 120, borderRadius: 10 }} />
                     </TouchableOpacity>
                 </View>
             </View>
@@ -131,7 +131,7 @@ function TrendingRestaurants() {
                     <Text
                         style={{
                             color: COLORS.lightGray2,
-                            ...FONTS.body2,
+                            ...FONTS.body4,
                         }}>
                         See all (45)
                     </Text>
@@ -139,7 +139,7 @@ function TrendingRestaurants() {
                 <Text
                     style={{
                         color: COLORS.black,
-                        ...FONTS.h1,
+                        ...FONTS.h2,
                         fontWeight: "bold",
                     }}>
                     Trending Restaurants

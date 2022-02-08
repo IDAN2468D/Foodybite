@@ -26,7 +26,7 @@ function SingUpScreen() {
 
     return (
         <AuthLayout_2 label="Foodybite">
-            <View style={{ position: 'absolute', top: 340, left: 0, right: 0 }}>
+            <View style={{ position: 'absolute', top: 50, left: 0, right: 0 }}>
                 <FormInput
                     placeholder="name"
                     autoCompleteType='email'
@@ -102,7 +102,7 @@ function SingUpScreen() {
                                 alignItems: 'center',
                             }}
                         >
-                            <View style={{ marginHorizontal: 20, }}>
+                            <View style={{ marginHorizontal: 20 }}>
                                 <Icon name={passwordError ? "key" : "unlock-alt"} size={30} color={COLORS.white} />
                             </View>
                         </View>
