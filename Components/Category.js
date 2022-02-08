@@ -33,31 +33,6 @@ function Category({ item, onPress }) {
                                 <Image source={images.Img_3} style={{ width: 35, borderRadius: 30, borderWidth: 3, borderColor: COLORS.white, height: 35, position: "absolute", left: 50 }} />
                                 <Image source={images.Img_4} style={{ width: 35, borderRadius: 30, borderWidth: 3, borderColor: COLORS.white, height: 35, position: "absolute", left: 70 }} />
                             </View>
-                            <Text
-                                style={{
-                                    fontSize: 10,
-                                    color: COLORS.black,
-                                    fontWeight: "bold",
-                                    backgroundColor: COLORS.BlueButton,
-                                    paddingVertical: 10,
-                                    paddingHorizontal: 10,
-                                    borderRadius: 18,
-                                }}>
-                                {item.price} Km
-                            </Text>
-                            <Text
-                                style={{
-                                    fontSize: 10,
-                                    color: COLORS.black,
-                                    fontWeight: "bold",
-                                    backgroundColor: COLORS.OrengeLhite,
-                                    marginHorizontal: 10,
-                                    paddingVertical: 9,
-                                    paddingHorizontal: 9,
-                                    borderRadius: 18,
-                                }}>
-                                {item.NutritionName}
-                            </Text>
                             <Text style={{ fontSize: 25, fontWeight: "bold", color: COLORS.black }}>
                                 {item.name}
                             </Text>
