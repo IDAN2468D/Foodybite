@@ -22,7 +22,7 @@ function ForgetPassword({ navigation }) {
     return (
         <AuthLayout_3 label="Forgot Password" >
             <View style={{ position: "absolute", alignItems: 'center', top: 150, left: 0, right: 0, right: 0 }}>
-                <Text style={{ ...FONTS.body2, color: COLORS.white, textAlign: "center", maxWidth: 350 }}>
+                <Text style={{ ...FONTS.body3, color: COLORS.white, textAlign: "center", maxWidth: 350 }}>
                     Enter your email and will send
                     you instructions on how to reset it
                 </Text>
@@ -57,7 +57,7 @@ function ForgetPassword({ navigation }) {
                         buttonText="Send"
                         disabled={isEnableSignInEmail() ? false : true}
                         containerStyle={{
-                            paddingVertical: 25,
+                            paddingVertical: 20,
                             marginHorizontal: 30,
                             alignItems: "center",
                             marginTop: 100,

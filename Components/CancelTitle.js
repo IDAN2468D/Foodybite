@@ -11,7 +11,7 @@ function LogoTitle({ name }) {
     return (
         <TouchableOpacity onPress={() => navigation.navigate("home")}>
             <View style={{ paddingVertical: 35, paddingHorizontal: 20, }}>
-                <Text style={{ ...FONTS.h2, fontWeight: "300", color: COLORS.CancelTitle }}>{name}</Text>
+                <Text style={{ ...FONTS.h3, fontWeight: "300", color: COLORS.CancelTitle }}>{name}</Text>
             </View>
         </TouchableOpacity>
     )

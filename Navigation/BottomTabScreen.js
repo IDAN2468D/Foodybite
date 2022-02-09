@@ -25,7 +25,7 @@ function BottomTabScreen() {
                 tabBarShowLabel: false,
                 tabBarStyle: {
                     backgroundColor: COLORS.white,
-                    height: 100,
+                    height: 80,
                     borderTopLeftRadius: 30,
                     borderTopRightRadius: 30
                 },

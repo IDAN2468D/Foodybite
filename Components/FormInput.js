@@ -27,7 +27,7 @@ function FormInput({
                         flexDirection: "row-reverse",
                         paddingHorizontal: 10,
                         marginHorizontal: 30,
-                        paddingVertical: 15,
+                        paddingVertical: 10,
                         marginTop: SIZES.base,
                         borderRadius: 20,
                         opacity: 0.4,

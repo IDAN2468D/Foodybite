@@ -26,7 +26,7 @@ function SingUpScreen() {
 
     return (
         <AuthLayout_2 label="Foodybite">
-            <View style={{ position: 'absolute', top: 50, left: 0, right: 0 }}>
+            <View style={{ position: 'absolute', top: 80, left: 0, right: 0 }}>
                 <FormInput
                     placeholder="name"
                     autoCompleteType='email'
@@ -141,7 +141,7 @@ function SingUpScreen() {
                     buttonText="Register"
                     disabled={isEnableSignInEmail() ? false : true}
                     containerStyle={{
-                        paddingVertical: 25,
+                        paddingVertical: 20,
                         marginHorizontal: 30,
                         alignItems: "center",
                         marginTop: 80,
@@ -155,12 +155,12 @@ function SingUpScreen() {
                     onPress={() => navigation.navigate("Home")}
                 />
                 <View style={{ flexDirection: 'row', marginVertical: 20, justifyContent: 'center' }}>
-                    <Text style={{ color: COLORS.white, ...FONTS.body2 }}>
+                    <Text style={{ color: COLORS.white, ...FONTS.body3 }}>
                         Already have an account?
                     </Text>
-                    <Button buttonText="Login"
+                    <Button buttonText="Login "
                         containerStyle={{ marginRight: 4 }}
-                        StyleText={{ ...FONTS.body2, color: COLORS.blue, fontWeight: "bold" }}
+                        StyleText={{ ...FONTS.body3, color: COLORS.blue, fontWeight: "bold" }}
                         onPress={() => navigation.navigate("LoginScreen")}
                     />
                 </View>

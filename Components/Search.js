@@ -23,10 +23,10 @@ function Search() {
                     borderRadius: 10,
                 }}>
                 <TouchableOpacity onPress={() => navigation.navigate("Filter")}>
-                    <Icon name="filter" color={COLORS.Search} size={30} style={{ marginHorizontal: 120 }} />
+                    <Icon name="filter" color={COLORS.Search} size={25} style={{ marginHorizontal: 100 }} />
                 </TouchableOpacity>
-                <Text style={{ paddingHorizontal: 10, ...FONTS.body2, color: COLORS.Search }}>Find Restaurants</Text>
-                <Icon color={COLORS.Search} name="search1" size={30} />
+                <Text style={{ paddingHorizontal: 10, ...FONTS.body3, color: COLORS.Search }}>Find Restaurants</Text>
+                <Icon color={COLORS.Search} name="search1" size={25} />
             </View>
         </TouchableOpacity >
     )

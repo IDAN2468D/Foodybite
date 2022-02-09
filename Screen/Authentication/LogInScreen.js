@@ -85,7 +85,7 @@ function LogInScreen() {
                 />
                 <TouchableOpacity onPress={() => navigation.navigate("ForgetPassword")}>
                     <View style={{ flexDirection: 'row', marginTop: 20, marginHorizontal: 35, justifyContent: "flex-start" }}>
-                        <Text style={{ ...FONTS.h2, color: COLORS.white }}>
+                        <Text style={{ ...FONTS.h3, color: COLORS.white }}>
                             Forgot Password?
                         </Text>
                     </View>
@@ -94,7 +94,7 @@ function LogInScreen() {
                     buttonText="Login"
                     disabled={isEnableSignInEmail() ? false : true}
                     containerStyle={{
-                        paddingVertical: 25,
+                        paddingVertical: 20,
                         marginHorizontal: 30,
                         alignItems: "center",
                         marginTop: 100,
@@ -109,7 +109,7 @@ function LogInScreen() {
                 />
                 <TouchableOpacity onPress={() => navigation.navigate("SingUpScreen")}>
                     <View style={{ flexDirection: 'row', marginVertical: 30, justifyContent: 'center' }}>
-                        <Text style={{ color: COLORS.white, ...FONTS.body2 }}>
+                        <Text style={{ color: COLORS.white, ...FONTS.body3 }}>
                             Create New Account
                         </Text>
                     </View>

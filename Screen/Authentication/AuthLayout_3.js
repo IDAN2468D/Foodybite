@@ -30,9 +30,9 @@ function AuthLayout_3({ label, children }) {
                 <LinearGradient start={{ x: 5, y: 1 }} end={{ x: 5, y: 0 }} colors={['#000000', 'transparent']} style={styles.linearGradient} />
                 <Icon
                     name="left"
-                    size={40}
+                    size={35}
                     color="#fff"
-                    style={{ position: "absolute", right: 20, top: 35, }}
+                    style={{ position: "absolute", right: 20, top: 45, }}
                     onPress={() => navigation.goBack()}
                 />
                 <View style={{
@@ -44,7 +44,7 @@ function AuthLayout_3({ label, children }) {
                     alignItems: 'center'
                 }}
                 >
-                    <Text style={{ textAlign: "center", ...FONTS.body1, color: COLORS.white, fontWeight: "bold" }}>
+                    <Text style={{ textAlign: "center", fontSize: 25, color: COLORS.white, fontWeight: "bold" }}>
                         {label}
                     </Text>
                 </View>

@@ -24,7 +24,7 @@ function Friends() {
                     <Text
                         style={{
                             color: COLORS.lightGray2,
-                            ...FONTS.body2,
+                            ...FONTS.body4,
                         }}>
                         See all (56)
                     </Text>
@@ -32,7 +32,7 @@ function Friends() {
                 <Text
                     style={{
                         color: COLORS.black,
-                        ...FONTS.h1,
+                        ...FONTS.h2,
                         fontWeight: "bold",
                     }}>
                     Friends
@@ -173,12 +173,14 @@ function Home() {
     return (
         <View>
             <Search />
-            <ScrollView style={{ height: 750, }}>
-                {TrendingRestaurants()}
-                {CategoryComponent()}
-                {Friends()}
-            </ScrollView>
-        </View>
+            <View style={{ height: 600 }}>
+                <ScrollView>
+                    {TrendingRestaurants()}
+                    {CategoryComponent()}
+                    {Friends()}
+                </ScrollView>
+            </View >
+        </View >
     )
 }
 

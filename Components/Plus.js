@@ -10,7 +10,7 @@ function Plus({ focused, icon }) {
             <View
                 style={{
                     position: "relative",
-                    bottom: 40,
+                    bottom: 30,
                     paddingHorizontal: 20,
                     paddingVertical: 20,
                     backgroundColor: COLORS.BlueButton,
@@ -25,7 +25,7 @@ function Plus({ focused, icon }) {
                 <Icon
                     name={icon}
                     resizeMode="contain"
-                    size={50}
+                    size={40}
                     style={{
                         color: focused ? COLORS.BlueMartina : COLORS.white
                     }}

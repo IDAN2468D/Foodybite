@@ -24,7 +24,7 @@ function AuthLayout_2({ label, children }) {
                     position: 'absolute', top: 0, left: 0, right: 0, bottom: 710, justifyContent: 'center', alignItems: 'center'
                 }}
                 >
-                    <Text style={{ textAlign: "center", ...FONTS.largeTitle, color: COLORS.white, fontWeight: "bold" }}>
+                    <Text style={{ textAlign: "center", fontSize: 40, color: COLORS.white, fontWeight: "bold" }}>
                         {label}
                     </Text>
                 </View>
