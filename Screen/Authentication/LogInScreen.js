@@ -7,8 +7,7 @@ import FormInput from '../../Components/FormInput';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Button from '../../Components/Button';
 import { useNavigation } from '@react-navigation/native'
-
-
+import { LoginButton, AccessToken } from 'react-native-fbsdk-next';
 
 
 function LogInScreen() {
@@ -114,6 +113,25 @@ function LogInScreen() {
                         </Text>
                     </View>
                 </TouchableOpacity>
+            </View>
+            <View style={{ position: "absolute", bottom: 60, left: 110 }}>
+                <LoginButton
+                    onLoginFinished={
+                        (error, result) => {
+                            if (error) {
+                                console.log("login has error: " + result.error);
+                            } else if (result.isCancelled) {
+                                navigation.navigate("Home")
+                            } else {
+                                AccessToken.getCurrentAccessToken().then(
+                                    (data) => {
+                                        console.log(data.accessToken.toString())
+                                    }
+                                )
+                            }
+                        }
+                    }
+                    onLogoutFinished={() => console.log("logout.")} />
             </View>
         </AuthLayout>
     )
