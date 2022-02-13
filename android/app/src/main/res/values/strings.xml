@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">splashexample</string>
+    <string name="app_name">Foodybite</string>
     <string name="facebook_app_id">4631811190278852</string>
     <string name="fb_login_protocol_scheme">fb4631811190278852</string>
 </resources>

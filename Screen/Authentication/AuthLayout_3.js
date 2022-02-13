@@ -28,13 +28,6 @@ function AuthLayout_3({ label, children }) {
                     <Image source={images.BgSingUp} style={{ width: windowWidth, height: windowHeight }} />
                 </View>
                 <LinearGradient start={{ x: 5, y: 1 }} end={{ x: 5, y: 0 }} colors={['#000000', 'transparent']} style={styles.linearGradient} />
-                <Icon
-                    name="left"
-                    size={35}
-                    color="#fff"
-                    style={{ position: "absolute", right: 20, top: 45, }}
-                    onPress={() => navigation.goBack()}
-                />
                 <View style={{
                     position: 'absolute',
                     top: 40,

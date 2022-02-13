@@ -99,8 +99,8 @@ function App() {
             headerTitleAlign: "center",
             headerShown: true,
             headerBackVisible: false,
-            headerLeft: props => (<TestScheduler {...props} />),
-            headerRight: props => (<HeaderRight_1 {...props} />),
+            headerRight: props => (<TestScheduler {...props} />),
+            headerLeft: props => (<HeaderRight_1 {...props} />),
             headerTitle: (props) => (<LogoTitle name="Category" {...props} />),
             headerStyle: {
               backgroundColor: COLORS.white,
@@ -113,8 +113,8 @@ function App() {
             headerTitleAlign: "center",
             headerShown: true,
             headerBackVisible: false,
-            headerLeft: props => (<TestScheduler {...props} />),
-            headerRight: props => (<HeaderRight_1 {...props} />),
+            headerRight: props => (<TestScheduler {...props} />),
+            headerLeft: props => (<HeaderRight_1 {...props} />),
             headerTitle: (props) => (<LogoTitle name="Find Friends" {...props} />),
             headerStyle: {
               backgroundColor: COLORS.white,
@@ -143,9 +143,8 @@ function App() {
             headerShown: true,
             headerShadowVisible: false,
             headerBackVisible: false,
-            headerLeft: props => (<TestScheduler {...props} />),
+            headerRight: props => (<TestScheduler {...props} />),
             headerTitle: (props) => (<LogoTitle name="Edit Profile" {...props} />),
-            headerRight: (props) => (<CancelTitle name="Cancel" {...props} />),
             headerStyle: {
               backgroundColor: COLORS.white,
             }
@@ -159,7 +158,7 @@ function App() {
             headerShown: true,
             headerShadowVisible: false,
             headerBackVisible: false,
-            headerLeft: props => (<TestScheduler {...props} />),
+            headerRight: props => (<TestScheduler {...props} />),
             headerTitle: (props) => (<LogoTitle name="Settings" {...props} />),
             headerStyle: {
               backgroundColor: COLORS.white,
