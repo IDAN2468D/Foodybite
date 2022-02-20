@@ -27,7 +27,7 @@ import Images from './Components/Images';
 import ReviewRatings from './Components/ReviewRatings';
 import { BackHandler, Alert } from 'react-native';
 import ForgetPassword from './Screen/Authentication/ForgetPassword';
-
+import Onboarding from './Screen/Onboarding/Onboarding ';
 
 const Stack = createNativeStackNavigator();
 
@@ -64,8 +64,9 @@ function App() {
         screenOptions={{
           headerShown: false,
         }}
-        initialRouteName="LoginScreen"
+        initialRouteName="Onboarding"
       >
+        <Stack.Screen name="Onboarding" component={Onboarding} />
         <Stack.Screen name="Home" component={BottomTabScreen} />
         <Stack.Screen name="LoginScreen" component={LogInScreen} />
         <Stack.Screen name="SingUpScreen" component={SingUpScreen} />
@@ -226,6 +227,7 @@ function App() {
             }
           }}
         />
+
       </Stack.Navigator>
     </NavigationContainer>
   )
