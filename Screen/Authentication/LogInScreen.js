@@ -62,8 +62,6 @@ function LogInScreen() {
                         setPassword(value)
                     }}
                     errorMsg={emailError}
-                    autoCompleteType='password'
-                    errorMsg={passwordError}
                     inputStyle={{
                         ...FONTS.h2,
                         fontWeight: 'bold',
